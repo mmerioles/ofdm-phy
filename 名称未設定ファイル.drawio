@@ -11,7 +11,7 @@
           <mxGeometry x="660" y="519.5" width="330" height="270.5" as="geometry" />
         </mxCell>
         <mxCell id="2086" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B09500;fillColor=#e3c800;fontSize=24;fontColor=#000000;align=center;opacity=60;" parent="1" vertex="1">
-          <mxGeometry x="294" y="410" width="296" height="225" as="geometry" />
+          <mxGeometry x="280" y="410" width="300" height="225" as="geometry" />
         </mxCell>
         <mxCell id="2093" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=center;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="-137.5" y="697" width="302" height="430" as="geometry" />
@@ -772,14 +772,11 @@
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2442" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
           <mxGeometry x="1123.5" y="557" width="67" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8mqi0Wb3uONjZXPuttcm-2298" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
-          <mxGeometry x="900" y="707" width="78" height="53" as="geometry" />
-        </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2303" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
           <mxGeometry x="1030" y="603.75" width="70" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2472" value="Localized CDN (Edge)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#23445D;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="981" y="914.5" width="196" height="19" as="geometry" />
+          <mxGeometry x="967" y="918" width="196" height="19" as="geometry" />
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2475" style="edgeStyle=none;rounded=1;html=1;strokeColor=#23445D;endArrow=none;endFill=0;strokeWidth=4;entryX=0.428;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.484;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8mqi0Wb3uONjZXPuttcm-2473" target="8mqi0Wb3uONjZXPuttcm-2464">
           <mxGeometry relative="1" as="geometry">
@@ -789,9 +786,6 @@
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2473" value="" style="shape=mxgraph.cisco.servers.fileserver;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
           <mxGeometry x="1078.5" y="939" width="43" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="8mqi0Wb3uONjZXPuttcm-2464" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
-          <mxGeometry x="1147.5" y="932" width="78" height="53" as="geometry" />
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2486" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=center;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="179.75" y="1150" width="302" height="271" as="geometry" />
@@ -1022,7 +1016,7 @@
           <mxGeometry x="380.5" y="485" width="78" height="53" as="geometry" />
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2580" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffff88;fontSize=24;align=center;opacity=60;" vertex="1" parent="1">
-          <mxGeometry x="615.25" y="922" width="287.5" height="160" as="geometry" />
+          <mxGeometry x="615.25" y="910" width="287.5" height="172" as="geometry" />
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2581" value="Tier-3 Access ISP B" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#23445D;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="680.25" y="1091" width="196" height="19" as="geometry" />
@@ -1110,6 +1104,18 @@
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2386" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
           <mxGeometry x="1358" y="479" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="8mqi0Wb3uONjZXPuttcm-2597" style="edgeStyle=none;rounded=1;html=1;strokeColor=#23445D;endArrow=none;endFill=0;strokeWidth=4;entryX=0.667;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.409;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8mqi0Wb3uONjZXPuttcm-2464" target="8mqi0Wb3uONjZXPuttcm-2298">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="910" as="sourcePoint" />
+            <mxPoint x="1319" y="1232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mqi0Wb3uONjZXPuttcm-2464" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
+          <mxGeometry x="1147.5" y="932" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="8mqi0Wb3uONjZXPuttcm-2298" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
+          <mxGeometry x="900" y="707" width="78" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
