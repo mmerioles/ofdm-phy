@@ -229,9 +229,6 @@
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2294" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=center;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="950" y="230" width="390" height="270.5" as="geometry" />
         </mxCell>
-        <mxCell id="8mqi0Wb3uONjZXPuttcm-2299" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
-          <mxGeometry x="840" y="532" width="78" height="53" as="geometry" />
-        </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2302" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#BAC8D3;fontSize=24;fontColor=#23445D;align=center;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="1021" y="683.75" width="220" height="190.5" as="geometry" />
         </mxCell>
@@ -288,6 +285,9 @@
         </mxCell>
         <mxCell id="8mqi0Wb3uONjZXPuttcm-2297" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
           <mxGeometry x="749" y="610" width="78" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="8mqi0Wb3uONjZXPuttcm-2299" value="" style="shape=mxgraph.cisco.routers.router;html=1;dashed=0;fillColor=#10739E;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;fontFamily=Helvetica;fontSize=36;fontColor=#FFB366" vertex="1" parent="1">
+          <mxGeometry x="840" y="532" width="78" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
