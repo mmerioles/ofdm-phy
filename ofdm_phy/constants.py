@@ -1,0 +1,131 @@
+"""Shared OFDM constants and subcarrier mappings."""
+
+import numpy as np
+
+PACKET_LENGTH = 4160
+N_FFT = 64
+CP_LEN = 16
+PILOT_SC = np.array([-21, -7, 7, 21])
+TEMP_SC = np.r_[np.arange(-26, 0), np.arange(1, 27)]
+DATA_SC = np.setdiff1d(TEMP_SC, PILOT_SC)
+PILOT_BINS = PILOT_SC % N_FFT
+DATA_BINS = DATA_SC % N_FFT
+NULL_BINS = np.setdiff1d(np.arange(N_FFT), np.r_[PILOT_BINS, DATA_BINS])
+
+STF_PATTERN = np.sqrt(13 / 6) * np.array(
+    [
+        0,
+        0,
+        1 + 1j,
+        0,
+        0,
+        0,
+        -1 - 1j,
+        0,
+        0,
+        0,
+        1 + 1j,
+        0,
+        0,
+        0,
+        -1 - 1j,
+        0,
+        0,
+        0,
+        -1 - 1j,
+        0,
+        0,
+        0,
+        1 + 1j,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1 - 1j,
+        0,
+        0,
+        0,
+        -1 - 1j,
+        0,
+        0,
+        0,
+        1 + 1j,
+        0,
+        0,
+        0,
+        1 + 1j,
+        0,
+        0,
+        0,
+        1 + 1j,
+        0,
+        0,
+        0,
+        1 + 1j,
+        0,
+        0,
+    ]
+)
+
+LTF_PATTERN = np.array(
+    [
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        1,
+        1,
+    ]
+)
+
+SC53 = np.r_[np.arange(-26, 0), [0], np.arange(1, 27)]
